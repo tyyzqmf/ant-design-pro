@@ -62,9 +62,11 @@ const description = (
 const tabList = [{
   key: 'detail',
   tab: '详情',
+  connect: (<div>详情</div>),
 }, {
   key: 'rule',
   tab: '规则',
+  connect: (<div>规则</div>),
 }];
 
 const desc1 = (
